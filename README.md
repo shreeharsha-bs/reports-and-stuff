@@ -1,4 +1,4 @@
 # reports-and-stuff
-Reports and other docs for easy access....google drive links are slow
+Reports and other docs for easy access... because google drive links are slow to load PDFs
 
-Need to add older reports and projects...stuff from BE as well....
+Need to add some older reports and projects...
