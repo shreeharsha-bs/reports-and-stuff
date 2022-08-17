@@ -23,7 +23,7 @@ drop com.miui.hybrid
 drop com.miui.hybrid.accessory
 drop com.miui.miservice
 drop com.miui.mishare.connectivity
-drop com.miui.miwallpaper
+drop com.miui.miwallpaper # Can't change wallpaper without this, it's always black if dropped
 drop com.miui.msa.global
 drop com.miui.notes
 drop com.miui.phrase
@@ -42,7 +42,6 @@ drop com.xiaomi.mipicks
 drop com.xiaomi.miplay_client
 drop com.xiaomi.mircs
 drop com.xiaomi.mirecycle
-drop com.xiaomi.misettings
 drop com.xiaomi.payment
 drop com.xiaomi.scanner
 drop com.xiaomi.xmsf
