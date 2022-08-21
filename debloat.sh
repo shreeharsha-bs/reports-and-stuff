@@ -1,4 +1,5 @@
 # script to remove bloatware from mi phone...useful if a future update reinstalls any of these.. Need to run this by calling in adb
+# Very inconsistent, bootloops on certain devices and region setting: Use this smaller set: https://forum.xda-developers.com/t/xiaomi-11t-pro-debloat-list.4472925/
 alias drop="pm uninstall --user 0"
 drop com.google.android.apps.tachyon
 drop com.google.android.apps.subscriptions.red
