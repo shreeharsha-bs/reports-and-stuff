@@ -1,5 +1,52 @@
 # script to remove bloatware from mi phone...useful if a future update reinstalls any of these.. Need to run this by calling in adb
 # Very inconsistent, bootloops on certain devices and region setting: Use this smaller set: https://forum.xda-developers.com/t/xiaomi-11t-pro-debloat-list.4472925/
+#Smaller set
+alias drop="pm uninstall -k --user 0"
+
+drop com.android.chrome
+drop com.android.hotwordenrollment.xgoogle
+drop com.android.hotwordenrollment.okgoogle
+
+drop com.amazon.appmanager
+
+drop com.aura.oobe.bouygues
+
+drop com.duokan.phone.remotecontroller
+
+drop com.google.android.apps.googleassistant
+drop com.google.android.apps.photos
+drop com.google.android.apps.subscriptions.red
+drop com.google.android.apps.tachyon
+drop com.google.android.apps.wellbeing
+drop com.google.android.feedback
+drop com.google.android.googlequicksearchbox
+drop com.google.android.music
+drop com.google.android.projection.gearhead
+drop com.google.android.videos
+
+drop com.ironsource.appcloud.oobe.hutchison
+
+drop cn.wps.xiaomi.abroad.lite
+drop com.mipay.wallet.in
+drop com.miui.analytics
+drop com.miui.backup
+drop com.miui.cloudbackup
+drop com.miui.cloudservice
+drop com.miui.mediafeature
+drop com.miui.micloudsync
+drop com.miui.miservice
+drop com.miui.msa.global
+drop com.miui.weather2
+drop com.miui.yellowpage
+drop com.xiaomi.account
+drop com.xiaomi.midrop
+drop com.xiaomi.mi_connect_service
+drop com.xiaomi.joyose
+drop com.xiaomi.payment
+drop com.xiaomi.xmsf
+drop org.mipay.android.manager
+######## ENd smaller set
+
 alias drop="pm uninstall --user 0"
 drop com.google.android.apps.tachyon
 drop com.google.android.apps.subscriptions.red
